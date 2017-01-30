@@ -1,6 +1,14 @@
+/*index styling*/
+
 body {
 		background-color:#C4DBD6;
 		font-family:verdana;
+    text-align: center;
+	}
+
+	#container{
+	    width: 95%;
+	    margin: 0 auto;
 	}
 
   .nav {
@@ -24,6 +32,13 @@ body {
     text-decoration: none;
 }
 
-li a:hover {
+.nav1 a:hover a:active{
     background-color: #111;
+}
+
+#footer {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
 }

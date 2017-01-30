@@ -2,7 +2,7 @@
 
 body {
 		background-color:#C4DBD6;
-		font-family:verdana;
+		font-family: verdana; "Ariel", san-serif;
     text-align: center;
 	}
 
@@ -32,7 +32,7 @@ body {
     text-decoration: none;
 }
 
-.nav1 a:hover a:active{
+.nav1 a:hover {
     background-color: #111;
 }
 

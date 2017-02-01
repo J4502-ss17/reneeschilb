@@ -11,6 +11,9 @@ body {
 	    margin: 0 auto;
 	}
 
+h1{
+	color: #3E5555;
+}
   .nav {
     list-style-type: none;
     margin: 0;

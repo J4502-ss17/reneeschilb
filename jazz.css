@@ -3,7 +3,6 @@
 body {
 		background-color:#C4DBD6;
 		font-family: verdana; "Ariel", san-serif;
-    text-align: center;
 	}
 
 	#container{
@@ -13,6 +12,7 @@ body {
 
 h1{
 	color: #3E5555;
+	text-align: center;
 }
   .nav {
     list-style-type: none;

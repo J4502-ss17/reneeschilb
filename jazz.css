@@ -1,8 +1,13 @@
 /*index styling*/
+/*color scheme colors:
+darkblue: #45555D
+darkgreenblue: #5D787A
+lightgreenblue: #BED0CD
+lightest:#E2E7E9 */
 
 body {
-		background-color:#C4DBD6;
-		font-family: verdana, "Arial", sans-serif;
+		background-color:#E2E7E9;
+		font-family: 'Roboto', sans-serif;
 		text-align: center;
 	}
 
@@ -12,15 +17,21 @@ body {
 	}
 
 h1{
-	color: #3E5555;
+	color: #45555D;
 	text-align: center;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 2.5em;
+}
+
+p {
+	color: #45555D;
 }
   .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #45555D;
 
 }
 
@@ -41,8 +52,36 @@ h1{
 }
 
 #footer {
-    color: black;
-    font-family: Georgia, "Times New Roman", serif;
+    color: #244B65;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 0.8em;
-    border-top: 1px solid black;
+    border-top: 1px solid #244B65;
+}
+
+h2 {
+	color: #5D787A;
+	 font-weight: lighter;
+}
+
+h2 a:link {
+    color: #5D787A;
+		text-decoration: underline;
+}
+
+h2 a:visited {
+    color: #5D787A;
+		text-decoration: none;
+}
+
+h2 a:hover {
+    color: #5D787A;
+		text-decoration: none;
+}
+
+h2 a:active {
+    color: #5D787A;
+		text-decoration: none;
+}
+.italic {
+	font-style: italic;
 }

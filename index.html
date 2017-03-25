@@ -1,35 +1,54 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 
+<html>
 <head>
-	<title>	Your page title goes here </title>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Open+Sans+Condensed:300|Roboto:300,300i,400,500,500i,700" rel="stylesheet"/>
-<link rel="stylesheet" type="text/css" href="jazz.css"/>
+	<title>A basic page</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Open+Sans+Condensed:300|Roboto:300,300i,400,500,500i,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="jazz.css">
 </head>
+
 <body>
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="https://google.com">Google</a></li>
+      <li><a href="https://mojo-ad.com/">Mojo Website</a></li>
+      <li><a href="assignment2/blankpage.html">Blank Page</a></li>
+      <li><a href="#">Link 5</a></li>
+    </ul>
+  </nav>
+  <div class="wrapper">
+  <header>
+	  <h1> Renee Schilb </h1>
+  </header>
 
-<!--Got this nav code from W3Schools-->
-<ul class="nav">
-  <li class="nav1"><a href="index.html">Home</a></li>
-  <li class="nav1"><a href="https://google.com">Google</a></li>
-  <li class="nav1"><a href="https://mojo-ad.com/">Mojo Website</a></li>
-  <li class="nav1"><a href="assignment2/blankpage.html">Blank Page</a></li>
-</ul>
 
-<br></br>
-<div id="container">
-<h1> Renee Schilb </h1>
-<h2>click <a href="mailto:rmsgt2@mail.missouri.edu">here</a> for my email or click on my photo</h2> <br></br>
-<a href="mailto:rmsgt2@mail.missouri.edu"><img src="assignment2/renee.jpg" height="300px" width="auto" alt="me" title="This is me!"/></a><br></br>
-<p> I don't really do jokes well unless they're nerdy or <span class="italic">severely</span> inappropriate... so instead, here's some great joke pics I found on the internet for your viewing pleasure </p>
-<img src="assignment2/joke.jpg" alt="joke one"/><br></br>
-<img src="assignment2/joke2.jpg" alt="joke two"/><br></br>
-<p id="footer">Content copyright &copy; 2017 Renee Schilb.</p>
-</div>
+    <article>
+
+<a href="mailto:rmsgt2@mail.missouri.edu"><img src="assignment2/renee.jpg" alt="me" title="This is me!" class="joke"></a>
+
+
+			<p class="first">click <a href="mailto:rmsgt2@mail.missouri.edu">here</a> for my email or click on my photo</p>
+
+    </article>
+
+
+    <aside class="aside-1">
+		<p>Joke 1</p><br>
+    <img src="assignment2/joke.jpg" alt="joke one">
+	</aside>
+
+
+    <aside class="aside-2">
+		<p>Joke 2</p><br>
+  <img src="assignment2/joke2.jpg" alt="joke two">
+	</aside>
+    <footer>
+		<p id="footer">Content copyright &copy; 2017 Renee Schilb.</p>
+	</footer>
+  </div>
 </body>
-
 </html>

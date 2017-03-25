@@ -8,17 +8,11 @@ lightest:#E2E7E9 */
 body {
 		background-color:#E2E7E9;
 		font-family: 'Roboto', sans-serif;
-		text-align: center;
-	}
-
-	#container{
-	    width: 80%;
-	    margin: 0 auto;
+		margin:0;
 	}
 
 h1{
 	color: #45555D;
-	text-align: center;
 	font-family: 'Nothing You Could Do', cursive;
 	font-size: 2.5em;
 }
@@ -26,30 +20,30 @@ h1{
 p {
 	color: #45555D;
 }
-  .nav {
-    list-style-type: none;
-    margin: 0;
+
+.navigation{
+	list-style: none;
+  background: #45555D;
+	margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #45555D;
-
+    display: flex;
+	flex-flow: column;
 }
 
-.nav1 {
-    float: left;
+.navigation a {
+	text-decoration: none;
+	display: block;
+	color: white;
+    text-align:center;
+    padding: 10px;
+    border-bottom:1px solid black;
+		align-content: center;
 }
 
-.nav1 a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navigation li:last-of-type a{
+  border-bottom: none;
 }
 
-.nav1 a:hover {
-    background-color: #111;
-}
 
 #footer {
     color: #244B65;
@@ -84,4 +78,95 @@ h2 a:active {
 }
 .italic {
 	font-style: italic;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header, article, aside, footer {
+  flex: 1 100%;
+  padding: 10px;
+}
+
+/*colors*/
+
+/*design things for different parts of page */
+
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+article {
+  background: ;
+}
+
+.aside-1 {
+  background: #95A994;
+}
+
+.aside-2 {
+  background: #95A994;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* large screen*/
+
+@media (min-width:800px) {
+
+    .navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .navigation a:hover {
+    	  background-color: #111;
+    }
+
+    aside {
+        flex: 1;
+    }
+
+    article {
+		flex: 3 0px;
+	}
+
+    .aside-1 {
+        order: 1;
+    }
+
+    article {
+        order: 2;
+    }
+
+    .aside-2 {
+        order: 3;
+    }
+
+    footer {
+        order: 4;
+    }
+
+    .first {
+        margin-top: 0;
+				float: right;
+    }
+
+.joke {
+	width: 50%;
+}
+
 }

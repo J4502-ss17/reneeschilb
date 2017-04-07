@@ -21,6 +21,7 @@ p {
 	color: #45555D;
 }
 
+/*logo is shown/hidden based on screen size*/
 .logo {
 	width: 30px;
 	height: auto;

@@ -21,6 +21,11 @@ p {
 	color: #45555D;
 }
 
+.logo {
+	width: 30px;
+	height: auto;
+}
+
 .navigation{
 	list-style: none;
   background: #45555D;
@@ -101,22 +106,72 @@ header {
 footer {
 	text-align: center;
 }
-
-article {
-  background: ;
-}
-
-.aside-1 {
-  background: #95A994;
-}
-
-.aside-2 {
-  background: #95A994;
+aside {
+	background: #95A994;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+/*medium screen*/
+
+@media all and (min-width:600px){
+	.navigation {
+			flex-flow: row wrap;
+			justify-content: flex-end;
+	}
+
+	.navigation a {
+			border: none;
+	}
+
+	.navigation a:hover {
+			background-color: #111;
+	}
+
+	aside {
+			flex: 1;
+			background: none;
+			padding-top: 0;
+	}
+
+	article {
+		text-align: center;
+	flex: 2 0px;
+}
+
+	.aside-1 {
+			order: 2;
+	}
+
+	article {
+			order: 1;
+	}
+
+	.aside-2 {
+			order: 3;
+	}
+
+	footer {
+			order: 4;
+	}
+	.joke {
+			width: 60%;
+	}
+
+.smaller {
+	font-size: 1.3em;
+	padding: 0;
+}
+
+.small {
+	font-size: .8em;
+}
+
+
+
 }
 
 /* large screen*/
@@ -138,10 +193,12 @@ img {
 
     aside {
         flex: 1;
+				background: none;
     }
 
     article {
-		flex: 3 0px;
+			text-align: center;
+		flex: 2 0px;
 	}
 
     .aside-1 {
@@ -159,14 +216,12 @@ img {
     footer {
         order: 4;
     }
+		.joke {
+			width: 75%;
+		}
+		.logo {
+			display: none;
+		}
 
-    .first {
-        margin-top: 0;
-				float: right;
-    }
-
-.joke {
-	width: 50%;
-}
 
 }
